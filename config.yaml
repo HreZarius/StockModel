@@ -1,0 +1,20 @@
+data_path: "data/dataset.csv"
+raw_data_path: "data/dataset.csv"
+interim_data_path: "data/interim/stock_clean.csv"
+processed_data_path: "data/processed/stock_features.csv"
+model_path: "models/best_model.pth"
+index_col: "Date"
+
+model_type: "attention"  # "lstm" or "attention"
+model_params:
+  hidden_dim: 128
+  num_layers: 3
+  output_dim: 1
+  dropout: 0.2
+
+train_params:
+  window_size: 60
+  batch_size: 64
+  epochs: 200
+  lr: 0.0005
+  val_split: 0.2
