@@ -117,7 +117,7 @@ The model includes several data augmentation techniques:
 ## Performance
 
 The model achieves:
-- **Validation Loss**: ~0.83 (with attention mechanism)
+- **Validation Loss**: ~0.26 (with attention mechanism)
 - **Training Stability**: Early stopping prevents overfitting
 - **Feature Rich**: 25+ technical indicators for comprehensive analysis
 
